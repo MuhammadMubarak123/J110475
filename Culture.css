@@ -1,0 +1,209 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("images/home_background_image.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px ;
+}
+nav {
+    position: relative; /* Ensure relative positioning for the nav element */
+}
+
+nav img {
+    max-width: 100%; /* Set maximum width for the image */
+    max-height: 100%; /* Set maximum height for the image */
+    vertical-align: middle; /* Align the image vertically within the nav */
+
+}
+nav ul {
+    padding: 5px; /* Updated padding to 5px on all sides */
+    height: 50px;
+    background-color: white; /* Changed background color to white */
+    text-align: center;
+    box-shadow: 5px 5px 15px #bfbfbf;
+    border-radius: 10px; /* Added border-radius for neomorphic effect */
+}
+
+nav ul li {
+   
+    border-radius: 50px;
+    display: inline;
+    color: green;
+    text-align: center; /* Centering the text within the nav buttons */
+}
+
+nav ul li a {
+    margin-left:  5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: transform 0.3s, font-size 0.3s;
+    background: #08c208; /* Changed button background to green */
+    color: white; /* Changed text color to white */
+    text-align: center; /* Centering the text within the nav buttons */
+    box-shadow: 2px 2px 5px #bfbfbf; /* Added box shadow for neomorphic effect */
+    border-radius: 5px; /* Added border-radius for neomorphic effect */
+}
+
+nav ul li a:hover {
+    background-color: #09be30;
+    transform: scale(1.1);
+    font-size: 1.1em;
+    color: white; /* Changed text color to white on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 0 auto; /* Center the section horizontally */
+    background-color: white; /* Changed background color to white */
+    color: #333; /* Changed text color to dark */
+    padding: 20px; /* Increased padding */
+    max-width: 1000px;
+ 
+    margin-top: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    text-align: center; /* Center the text within the section */
+    position: relative; /* Added relative positioning */
+    transition: color 0.3s, box-shadow 0.3s; /* Added transition for color and box-shadow */
+    border-radius: 10px; /* Added border-radius for a rounded appearance */
+}
+section img{
+    max-width: 80%; /* Reduced image width */
+}
+section:hover {
+    box-shadow: 5px 5px 25px #bfbfbf; /* Added box shadow on hover */
+}
+
+h2 {
+    color: #060606; /* Changed heading color to green */
+    transition: color 0.3s; /* Added transition for color change */
+}
+
+section:hover h2 {
+    color: #09be30; /* Changed heading color to a different green on hover */
+}
+
+p {
+    font-size: 16px; /* Increased font size */
+    transition: font-size 0.3s; /* Added transition for font size */
+}
+
+section:hover p {
+    font-size: 20px; /* Increased font size on hover */
+}
+
+footer {
+    background-color: #333;
+    text-align: center; /* Center the footer text */
+    font-size: 14px; /* Set font size for footer text */
+    padding: 20px; /* Added padding for spacing */
+    margin: 10px; /* Added margin for spacing */
+    color: white; /* Changed text color to white */
+}
+
+footer a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+button{
+    position: fixed;
+     bottom: 20px; 
+    right: 20px; 
+    padding: 10px 20px;
+     font-size: 16px; border: none; 
+     background-color: #08c208;
+      color: white;
+     cursor: pointer;
+       border-radius: 5px;
+ }
+ 
+
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        padding: 2px;
+    }
+
+    nav ul li {
+        margin: 2px;
+    }
+
+    nav ul li a {
+        padding: 5px 10px;
+    }
+
+    section {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    nav ul {
+        padding: 2px;
+    }
+
+    nav ul li {
+        margin: 2px;
+
+    }
+
+    nav ul li a {
+        font-size: 50%;
+    }
+
+    section {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    nav ul {
+        padding: 2px;
+    }
+
+    nav ul li {
+        margin: 2px;
+
+    }
+
+    nav ul li a {
+        font-size: 45%;
+    }
+
+    section {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    nav ul {
+        padding: 2px;
+    }
+
+    nav ul li {
+        margin: 0%;
+
+    }
+
+    nav ul li a {
+        font-size: 40%;
+    }
+
+    section {
+        max-width: 100%;
+    }
+}
